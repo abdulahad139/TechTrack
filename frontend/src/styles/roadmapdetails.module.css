@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(/src/components/Assets/Poppins/Poppins-Medium.ttf);
+}
+
+
+.roadmap-details-page {
+    background-color: #17152F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.roadmap-name {
+    padding: 0px 36px;
+    font-size: 50px;
+    color: #2AD7BA;
+    font-weight: bold;
+    text-shadow: 8px 7px 5px #0d0c1a;
+    margin-bottom: 0px;
+}
+
+.main-para {
+    color: white;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    text-shadow: 6px 7px 5px #0d0c1a;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    min-width: 600px;
+    border-radius: 32px;
+    box-shadow: 3px 4px 5px #0d0c1a;
+    border: 2px solid black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.back-btn, .course-btn {
+    font-family: Poppins-Medium;
+    padding: 10px 15px;
+    font-size: 30px;
+    background-color: #2AD7BA;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px #0d0c1a;
+    margin: 50px 0px;
+}
+
+.course-btn:hover, .back-btn:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Source-Serif;
+    src: url(/frontend/src/components/Assets/Source_Serif_4/SourceSerif4-VariableFont_opsz\,wght.ttf);
+}
+
+
+.homepage {
+    background-color: #17152F;
+    font-family: Source-Serif, sans-serif;
+    display: flex;   /* You need a flexbox container on the parent element for the footer to sit at the bottom*/
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mid-section {
+    padding-top: 50px;
+}
+
+.headings {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 8px 7px 5px #0d0c1a;
+}
+
+.main-heading {
+    font-size: 90px;
+    color: #2AD7BA;
+    font-weight: bold;
+}
+
+.main-heading2 {
+    font-size: 57px;
+    color: white;
+    font-weight: bold;
+}
+
+.paragraph {
+    color: white;
+    max-width: 1000px;
+    padding-top: 15px;
+    font-size: x-large;
+}
+
+.buttons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   padding: 35px;
+}
+
+.roadmap, .courses {
+    text-decoration: none;
+    color: black;
+}
+
+.roadmap-btn, .courses-btn {
+    font-family: Poppins-Regular;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #2AD7BA;
+    border-radius: 10px;
+    box-shadow: 8px 7px 5px #0d0c1a;
+}
+
+.roadmap-btn:hover, .courses-btn:hover {
+    background-color: #1d9c87;
+    cursor: pointer;
+}
+
