@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(/src/components/Assets/Poppins/Poppins-Medium.ttf);
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+
+.ul {
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: #17152F;
+    color: white;
+    font-family: Poppins-Medium;
+    font-size: larger;
+    box-shadow: 1px 5px 5px #0d0c1a;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}   
+
+
+.homepage, .roadmap, .courses {
+    text-decoration: none;
+    color: white;
+    text-shadow: 8px 7px 5px #0d0c1a;
+
+}
+
+.drop {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.dropbtn {
+    font-weight: bold;
+    font-family: Poppins-Regular;
+    padding: 10px 15px;
+    border: 0px;
+    border-radius: 2px;
+    color: #23af97;
+    background-color: #f1f1f1;
+
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+    padding: 10px 0px;
+    color: black;
+  }
+
+.dropdown-content a{
+    text-decoration:none;
+}
+
+.dropdown-content a:visited {
+    text-decoration: none;
+    font-style: none;
+}
+  
+
+  /* Show the dropdown menu on hover */
+.drop:hover .dropdown-content{
+    display: block;
+}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.drop:hover, .dropbtn:hover, .dropdown-content:hover  {
+    background-color: #b9b9b9;
+}
+  
+
+.logo {
+    width: 300px;
+    flex-shrink: 1;
+}
+
+.homepage:hover, .roadmap:hover, .courses:hover{
+    color: rgb(214, 212, 212);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .logout-link {
+      margin-left: 0px;
+    }
+  }
+

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/src/components/Assets/Poppins/Poppins-Regular.ttf);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Poppins-Regular, sans-serif;
+    background-color: white;
+    margin-top: auto;
+    box-shadow: 1px 7px 4px #303030 inset;
+    flex-wrap: wrap;
+}
+
+.p {
+    padding-right: 10px;
+}
+
+.logo {
+    width: 300px;
+}
