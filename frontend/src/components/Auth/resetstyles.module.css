@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(/src/components/Assets/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/src/components/Assets/Poppins/Poppins-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(/src/components/Assets/Poppins/Poppins-Medium.ttf);
+}
+
+.reset-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F5F5;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    max-width: 450px;
+    min-width: 300px;
+    width: 60vw;
+    margin: 0 0 8px 0;
+    padding: 20px 15px 20px 10px;
+    background-color: #ffffff;
+    box-shadow: 20px 10px 5px #d3d6d9;
+    border: 1px solid black;
+    border-radius: 32px;
+}
+
+.main-heading {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.2);
+}
+
+.logo {
+    height: 20%;
+    width: 20%;
+}
+
+.h2 {
+    letter-spacing: 3px;
+}
+
+.email-input, .email-label, .password-input, .password-label, .confirm-input, .confirm-label{
+    display: block;
+    width: 100%;
+    margin: 10px 0 5px 0;
+    text-align: left;
+}
+
+.email-input, .password-input, .confirm-input{
+    padding: 5px;
+    border: 1px solid #F5F5F5;
+    padding: 13px 5px;
+    border-radius: 10px;
+    font-family: Poppins-Medium, Tahoma, sans-serif;
+}
+
+.instructions, .errmsg {
+    background-color: rgb(255, 120, 120);
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 5px 13px;
+    margin-bottom: 0.1rem;
+}
+
+.errmsg {
+    margin-bottom: 10px;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+
+.reset-btn {
+    background-color: #00000C;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    border: 0px;
+    border-radius: 3px;
+    font-family: Poppins-Bold, Tahoma, sans-serif;
+    box-shadow: 2px 1px 5px #d3d6d9;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.reset-btn:hover {
+    cursor: pointer;
+}
+
+.reset-btn:disabled {
+    background-color: #8b8b8b;
+    cursor: default;
+    pointer-events: none;
+}

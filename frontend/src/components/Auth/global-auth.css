@@ -1,0 +1,13 @@
+
+body {
+    text-align: center;
+    font-family: Poppins-Regular, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+fieldset {
+    border: 0px;
+    margin: 0.1rem;
+}

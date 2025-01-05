@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(/src/components/Assets/Poppins/Poppins-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(/src/components/Assets/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/src/components/Assets/Poppins/Poppins-Regular.ttf);
+}
+
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #F5F5F5;
+    font-family: Poppins-Regular, sans-serif;
+    gap: 200px;
+}
+
+
+.form {
+    max-width: 600px;
+    min-width: 420px;
+    margin: 0 0 8px 0;
+    padding: 20px 15px 20px 10px;
+    background-color: #ffffff;
+    box-shadow: 20px 10px 5px #d3d6d9;
+    border: 1px solid black;
+    border-radius: 32px;
+}
+
+
+.logo {
+    width: 450px;
+}
+
+.h2 {
+    letter-spacing: 3px;
+}
+
+.email-input, .password-input, .email-label, .password-label{
+    display: block;
+    width: 100%;
+    margin: 10px 0 5px 0;
+    text-align: left;
+}
+
+.errmsg {
+    background-color: rgb(255, 120, 120);
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 5px 13px;
+    width: 390px;
+    margin-bottom: 10px 20px;
+}
+
+.email-input, .password-input{
+    padding: 5px;
+    border: 1px solid #F5F5F5;
+    padding: 13px 5px;
+    border-radius: 10px;
+    font-family: Poppins-Medium, Tahoma, sans-serif;
+}
+
+.login-btn {
+    background-color: #00000C;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    border: 0px;
+    border-radius: 3px;
+    font-family: Poppins-Bold, Tahoma, sans-serif;
+    box-shadow: 2px 1px 5px #d3d6d9;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+}
