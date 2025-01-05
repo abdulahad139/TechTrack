@@ -1,0 +1,20 @@
+Tech Track Homepage - Introduction, Reviews
+(Navbar - (See Roadmap.sh) Start Here, Login, Sign-up, Roadmap tab, Courses tab )
+
+Roadmaps tab will link to - Grid wise with pictures and respective roadmap names. Example is Stackshare.
+(ideogram.com - for AI generated images, 
+pexels - stock photos)
+You can use tempmails for multiple accounts)
+
+
+You clicked on Python Roadmap.
+Page will consist of:
+Python Heading
+Introduction
+Courses Recommendation (Link to Courses Page)
+Footer
+
+Python Courses
+In grids with images and links sent from backend. Top 9 courses to be recommended.
+
+If you signup you can see the recommended courses or you have to sign up to see the whole website.
